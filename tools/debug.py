@@ -18,9 +18,9 @@ if __name__ == '__main__':
     magazine1 = Magazine("Hadithi za Kiafrika", "Fasihi")
     magazine2 = Magazine("Utamaduni Wetu", "Fasihi")
 
-    article1 = author1.add_article(magazine1, "Machozi ya Simba")
+    article1 = author1.add_article(magazine2, "Machozi ya Simba")
     article2 = author2.add_article(magazine1, "Jua Limeshangaza")
-    article3 = author1.add_article(magazine2, "Nyota Nyeusi")
+    article3 = author1.add_article(magazine1, "Nyota Nyeusi")
 
     # Test
 

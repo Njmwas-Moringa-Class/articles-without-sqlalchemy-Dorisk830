@@ -1,10 +1,10 @@
 class Author:
-    authors = []
+    _authors = []
 
     def __init__(self, name):
         self._name = name
         self._articles = []
-        Author.authors.append(self)
+        Author._authors.append(self)
 
     def name(self):
         return self._name
@@ -26,4 +26,4 @@ class Author:
 
     @classmethod
     def all(cls):
-        return cls.authors
+        return cls._authors
